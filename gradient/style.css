@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 100px;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  background: rgb(147, 160, 123);
+}
+
+.main2 {
+  display: flex;
+  text-align: center;
+}
+
+.A {
+  height: 100vh;
+  width: 14.3%;
+  background: linear-gradient(to right, #e684ae, #79cbca, #77a1d3);
+}
+
+.R {
+  height: 100vh;
+  width: 14.3%;
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+
+.S {
+  height: 100vh;
+  width: 14.3%;
+  background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+}
+
+.E {
+  height: 100vh;
+  width: 14.3%;
+  background: linear-gradient(to right, #1f4037, #99f2c8);
+}
+
+.N {
+  height: 100vh;
+  width: 14.3%;
+  background: linear-gradient(to right, #f12711, #f5af19);
+}
+
+.A1 {
+  height: 100vh;
+  width: 14.3%;
+  background: linear-gradient(to right, #59c173, #a17fe0, #5d26c1);
+}
+
+.L {
+  height: 100vh;
+  width: 14.3%;
+  background: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
+
+p {
+  padding-top: 400px;
+  color: #f1f1f2;
+}

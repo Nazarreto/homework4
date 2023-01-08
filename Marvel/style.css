@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+}
+
+.head {
+  height: 100px;
+  width: 100vw;
+  background: rgb(225, 192, 192);
+  text-align: center;
+  font-size: 50px;
+  color: red;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.LeftCont {
+  height: 89.5vh;
+  width: 50vw;
+  background: white;
+  box-sizing: border-box;
+  float: left;
+}
+
+.LeftCont img {
+  border: thick double #000000;
+}
+
+.img {
+  height: 360px;
+  width: 640px;
+  box-sizing: border-box;
+  padding-left: 310px;
+}
+
+.bigImg {
+  height: 360px;
+  width: 640px;
+}
+
+.sm img {
+  height: 85px;
+  width: 130px;
+  float: left;
+  margin-left: 310px;
+  margin-top: 50px;
+}
+
+.sm2 img {
+  height: 85px;
+  width: 130px;
+  float: left;
+  margin-left: 43px;
+  margin-top: 50px;
+}
+
+.sm3 img {
+  height: 85px;
+  width: 130px;
+  float: left;
+  margin-left: 43px;
+  margin-top: 50px;
+}
+
+.sm4 img {
+  height: 85px;
+  width: 130px;
+  float: left;
+  margin-left: 43px;
+  margin-top: 50px;
+}
+
+.RightCont {
+  height: 89.5vh;
+  width: 50vw;
+  float: left;
+}
+
+.text {
+  padding-top: 25px;
+  padding-left: 100px;
+  font-family: Rowdies;
+}
+
+p {
+  width: 600px;
+  border-top: 5px solid red;
+}
+
+@font-face {
+  font-family: Rowdies;
+  src: url(./assets/fonts/Rowdies-Regular.ttf);
+}
+
+img:hover {
+  background-color: blueviolet;
+}
+
+p:hover {
+  background-color: rgb(36, 134, 77);
+}
+
+.head:hover {
+  background: rgb(135, 126, 127);
+}
+
+h1:hover {
+  background-color: rgb(146, 135, 150);
+}

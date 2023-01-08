@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100px;
+  width: 100vw;
+  background: rgb(188, 180, 167);
+  float: left;
+}
+.zx {
+  height: 100px;
+  width: 430px;
+  padding-top: 20px;
+  float: left;
+  font-size: 40px;
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 25px;
+}
+
+.flex div {
+  padding-top: 35px;
+}
+
+.Contact {
+  height: 100px;
+  width: 150px;
+}
+
+.Contact {
+  cursor: pointer;
+  transition: 0.5s linear all;
+}
+
+.Contact:hover {
+  background: brown;
+  color: #ccc;
+}
